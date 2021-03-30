@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".activities.LoginActivity">
+
+        <EditText
+            android:layout_marginTop="10dp"
+            android:id="@+id/login_activity_etEmail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Business Email"
+            android:textColorHint="#fff"
+            android:inputType="textEmailAddress"
+            android:padding="4dp"/>
+
+        <EditText
+            android:layout_marginTop="10dp"
+            android:id="@+id/login_activity_etPassword"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Password"
+            android:textColorHint="#fff"
+            android:inputType="textPassword"
+            android:padding="4dp"/>
+
+        <TextView
+            android:id="@+id/login_activity_tvForgotPasswordLink"
+            android:gravity="end"
+            android:text="Forgot Password"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+    <Button
+        android:id="@+id/login_activity_btnLogin"
+        android:text="LOGIN"
+        android:layout_margin="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <TextView
+        android:id="@+id/login_activity_tvNewAccountLink"
+        android:gravity="center_horizontal"
+        android:text="Need new Account?"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:gravity="center_horizontal"
+        android:text="or Login using your"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <Button
+        android:id="@+id/login_activity_btnPhoneLogin"
+        android:text="PHONE NUMBER"
+        android:layout_margin="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+</LinearLayout>
